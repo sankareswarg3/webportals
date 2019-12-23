@@ -1,0 +1,52 @@
+
+#watermark {
+background-image: url("C:\inetpub\wwwroot\img\PepsiCo_resized.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity:0.1;
+filter: alpha(opacity=10);
+}
+
+#image {
+pointer-events: none;
+height: 10px; 
+width: 10px; 
+background-image: url("C:\inetpub\wwwroot\img\PepsiCo_resized.jpg");
+background-repeat: no-repeat;
+opacity:0.1;
+filter: alpha(opacity=10);
+}
+
+
+#background{
+    position:absolute;
+    z-index:0;
+    background:white;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    color:yellow;
+}
+
+#table {
+background-repeat: no-repeat; 
+
+
+}
+#container {
+width: inherit;
+height: inherit;
+margin: 0;
+padding: 0;
+}
+
+#heading	{
+	margin-left: auto;
+margin-right: auto;
+width: inherit;
+height: inherit;
+margin: 0;
+padding: 0;
+}
+	
+
